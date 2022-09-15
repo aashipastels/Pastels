@@ -1,0 +1,20 @@
+.foodDiv{
+    text-align: center;
+    margin: 100px 0px;
+}
+.foodFeatures{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 150px;
+    justify-content: space-around;
+}
+.foodFeatures div{
+    height: 240px;
+    width: 300px;
+}
+.foodFeatures img{
+    object-fit: cover;
+    height: 170px;
+    width: 260px;
+    border-radius: 10px;
+}

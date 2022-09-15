@@ -1,0 +1,22 @@
+.headerDiv{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    padding: 5px ;
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+    
+}
+.head{
+    flex: 2 1 0;
+    align-items: center;
+}
+.programDiv{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: space-around;
+    flex: 2 1 0;
+    
+}
